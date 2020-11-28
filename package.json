@@ -7,7 +7,11 @@
   "keywords": [
     "gratico-engineering"
   ],
-  "url": "https://www.grati.co/@gratico/qbase",
+  "url": "https://www.grati.co/@gratico/checksum",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/gratico/checksum.git"
+  },
   "accessConfig": {
     "public": true
   },
