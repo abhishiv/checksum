@@ -1,0 +1,26 @@
+{
+  "name": "@gratico/checksum",
+  "version": "0.8.1",
+  "author": "Abhishiv Saxena<abhishiv@gmail.com>",
+  "description": "Hash/Checksum utilities",
+  "license": "UNLICENSED",
+  "keywords": [
+    "gratico-engineering"
+  ],
+  "url": "https://www.grati.co/@gratico/qbase",
+  "accessConfig": {
+    "public": true
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo 42",
+    "pub": "npm publish --access=public",
+    "build": "cp ../../tools/mono/Makefile ./Makefile && make build"
+  },
+  "dependencies": {
+    "pure-md5": "0.1.13"
+  },
+  "peerDependencies": {},
+  "devDependencies": {}
+}
